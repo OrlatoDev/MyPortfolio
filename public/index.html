@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Samuel Trevisan Orlato</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="../src/frontend/home.css">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap" rel="stylesheet"> 
+    <script src="https://kit.fontawesome.com/5ce84897d8.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark" style="background-color: #161616;">
+        <a class="navbar-brand" href="index.html"><img id="me" src="../src/assets/me.jpeg"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Alterna navegação">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+          <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+            <li class="nav-item active" id="home-li">
+              <a class="nav-link" href="index.html" id="home-a">Home <span class="sr-only">(Página atual)</span></a>
+            </li>
+            <li class="nav-item" id="about-li">
+                <a class="nav-link" href="#about" id="about-a">About</a>
+              </li>
+            <li class="nav-item" id="projects-li">
+              <a class="nav-link" href="#projects" id="projects-a">Projects</a>
+            </li>
+            <li class="nav-item" id="contact-li">
+                <a class="nav-link" href="#contact" id="contact-a">Contact</a>
+              </li>
+          </ul>
+        </div>
+      </nav>
+      <div class="landing-pg">
+        <h2>Samuel Trevisan Orlato</h2>
+        <h4 onclick="window.location.href = 'https://github.com/OrlatoDev?tab=repositories'">My Repositories</h4>
+      </div>
+      <div class="main" style="padding: 7.9%">
+        <h3 id="about">About</h3>
+        <p>My name is Samuel Trevisan Orlato, I've 13 years old, I live in Jundiaí - São Paulo in Brazil, I'm studying in <a href="https://www.divinojundiai.com.br/">Colégio Divino Salvador</a> and I really like to programming, since little I was interested in technology.</p>
+        <p>Today, I know some programming languages and "tools" like:</p>
+        <div class="skills">
+            <ul>
+                <li>HTML5 <i class="fab fa-html5"></i></li>
+                <li>CSS3 <i class="fab fa-css3"></i></li>
+                <li>Javascript and jQuery <i class="fab fa-js-square"></i></li>
+                <li>Bootstrap <i class="fab fa-bootstrap"></i></li>
+                <li>Node.js <i class="fab fa-node-js"></i></li>
+                <li>Python 3 <i class="fab fa-python"></i></li>
+            </ul>
+        </div>
+        <p>My first contact with programming was in 2017, when I became interested in Python 3, but that was not as forward and significant. In 2018 I've started participe of TBR ("Torneio Brasil de Robótica"), when I learn EV3/Lego programming ("block programming") in a course in Itatiba - São Paulo, I participe of Lego tournaments during more 1 year and in 2020 we stoped the participation for some motives.</p>
+        <p>In 2019 I begin to learn "line programming", I return my studies of Python 3, I started in a programming school in Eloy Chaves (a neighborhood in Jundiaí) called <a href="https://www.ctrlplay.com.br/">Ctrl+Play</a>, there I init my studies of Python 3 and Web Devlopment with HTML5, CSS3, Bootstrap 4 and Javascript. Currently I'm learning jQuery and will start my studies of PHP and Databases.</p>
+        <p>I think we always have new things to learn and improve, and because this, we should to search well, and always more about the things.</p>
+        <h3 id="projects">Projects</h3>
+        <button class="btn" id="button-dark" onclick="window.location.href = 'projects.html'">Click here to see my projects</button>
+        <h3 id="contact">Contact</h3>
+        <button class="logo" onclick="window.location.href = 'https://github.com/OrlatoDev'"><i class="fab fa-github"></i></button>
+        <button class="logo" onclick="window.location.href = 'mailto:samuelorlato@gmail.com'"><i class="fas fa-envelope"></i></button>
+    </div>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="../src/backend/script.js"></script>
+</body>
+</html>

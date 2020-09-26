@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    transition: 0.5s;
+    scrollbar-color: rgba(255, 255, 255, 0.164) #161616;
+}
+html{
+    background-color: #161616;
+    scroll-behavior: smooth;
+}
+#me{
+    width: 3rem;
+    border-radius: 10%;
+}
+.landing-pg{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../assets/background.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+h2, h4{
+    color: #161616;
+    font-family: 'Quicksand', sans-serif;
+}
+h3{
+    color: white;
+}
+h2{
+    font-size: 5rem;
+    font-weight: bolder;
+    text-align: center;
+    margin-top: 6%;
+}
+h4{
+    font-size: 1.8rem;
+    font-weight: bolder;
+    background-color: rgba(255, 255, 255, 0.164);
+    padding: 0.6%;
+}
+h4:hover{
+    background-color: rgba(255, 255, 255, 0.281);
+    cursor: pointer;
+    box-shadow: 0 0 2px rgba(255, 255, 255, 0.171),
+                0 0 15px rgba(255, 255, 255, 0.171),
+                0 0 20px rgba(255, 255, 255, 0.171),
+                0 0 50px rgba(255, 255, 255, 0.171);
+}
+::selection {
+    background: rgba(255, 255, 255, 0.164);
+}
+.main{
+    background-color: #161616;
+    padding: 6.5%;
+}
+p{
+    color: white;
+}
+#button-dark{
+    background-color:rgba(255, 255, 255, 0.164);
+    color: white;
+    margin-bottom: 1.4%;
+}
+#button-dark:hover{
+    background-color: rgba(255, 255, 255, 0.103);
+    color: white;
+    box-shadow: 0 0 2px rgba(255, 255, 255, 0.082),
+                0 0 15px rgba(255, 255, 255, 0.082),
+                0 0 20px rgba(255, 255, 255, 0.082),
+                0 0 50px rgba(255, 255, 255, 0.082);
+}
+.logo{
+    background-color: transparent;
+    border: 0;
+    font-size: 2rem;
+    margin-right: 0.5%;
+    color: rgba(255, 255, 255, 0.164)
+}
+.logo:hover{
+    color: white;
+}
+ul{
+    margin-left: 1.5%;
+}
+li{
+    color: white;
+}
+a{
+    text-decoration: none;
+    color: rgb(207, 207, 207);
+}
+a:hover{
+    color: white;
+}
+.cards{
+    display: flex;
+    flex-direction: row;
+    background-color: #161616;
+    padding-top: 6.5%;
+    padding-right: 6.5%;
+    padding-left: 6.5%;
+}
+.card{
+    margin-right: 2%;
+    margin-left: 2%;
+    margin-top: 2%;
+}
