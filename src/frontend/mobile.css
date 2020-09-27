@@ -10,6 +10,7 @@ h4{
 .cards{
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 #cards2{
     padding-top: 0;
