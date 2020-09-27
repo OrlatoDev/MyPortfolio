@@ -1,0 +1,19 @@
+ul{
+    margin-left: 4.6%;
+}
+h2{
+    font-size: 4.2rem;
+}
+h4{
+    font-size: 1.7rem;
+}
+.cards{
+    display: flex;
+    flex-direction: column;
+}
+#cards2{
+    padding-top: 0;
+}
+.card{
+    margin-bottom: 3%;
+}
