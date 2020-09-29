@@ -1,4 +1,4 @@
 # MyPortfolio
-![Screenshot_2](https://user-images.githubusercontent.com/62776404/94369278-2c7bda80-00bf-11eb-80c5-688e1533f3fa.png)
+![Screenshot_1](https://user-images.githubusercontent.com/62776404/94500660-4d831f00-01d6-11eb-9b7f-6e218a8e903c.png)
 
 My personal portfolio made with HTMl, CSS and Bootstrap 4
